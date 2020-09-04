@@ -7,8 +7,8 @@
 }
 
 /* Colors */
-.purple { color:#66319b; }
-.lightPurple { color: #865ead; }
+.purple { color:#7123a0; }
+.lightPurple { color: #8f58b1; }
 .teal { color: #77bcb8; } 
 .lightGray { color: #ababab;}
 
@@ -57,7 +57,7 @@ body {
 }
 
 #showcase {
-  padding: 2.5rem 3rem;
+  padding: .5rem 3rem 2.5rem 3rem;
 }
 
 @media only screen and (max-width: 400px) {
