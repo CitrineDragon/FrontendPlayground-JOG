@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+.purple { color:#66319b; }
+.lightPurple { color: #865ead; }
+.teal { color: #77bcb8; } 
+.lightGray { color: #ababab;}
+
+/* Font Size */
+.largeFont { font-size: 48px; padding-bottom: 1.75rem;}
+.mediumFont { font-size: 26px; padding-bottom: 1.5rem;}
+.smallFont { font-size: 20px; padding-bottom: 1.5rem;}
+
+@media only screen and (max-width: 400px) {
+  .largeFont { font-size: 26px; padding-bottom: 1.5rem;}
+  .mediumFont { font-size: 20px; padding-bottom: 1.5rem;}
+}
+
+/* Grid Areas */
+.showcase {grid-area: showcase;}
+.join {grid-area: join;}
+.about {grid-area: about;}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+#container {
+  display: grid;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    'showcase showcase'
+    'join about';
+}
+
+@media only screen and (max-width: 400px) {
+  #container {
+  grid-template-areas: 
+    'showcase'
+    'join'
+    'about'; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  }
+}
+
+#showcase {
+  padding: 2.5rem 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+  #showcase {
+    padding: 1.5rem 2rem;
+  }
+}
+
+#join {
+  background-color: #66319b; 
+  color: white;
+  padding: 2.5rem 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+  #join {
+    padding: 1.5rem 2rem;
+  }
+}
+
+.btn {
+  display: block;
+  background-color: #77bcb8;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+#about {
+  background-color: #865ead;
+  color: white;
+  padding: 2.5rem 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+  #about {
+    padding: 1.5rem 2rem;
+  }
+}
