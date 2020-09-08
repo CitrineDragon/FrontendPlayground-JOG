@@ -14,7 +14,7 @@
 
 /* Font Size */
 .largeFont { font-size: 48px; padding-bottom: 1.75rem;}
-.mediumFont { font-size: 26px; padding-bottom: 1.5rem;}
+.mediumFont { font-size: 26px; padding-bottom: 1rem;}
 .smallFont { font-size: 20px; padding-bottom: 1.5rem;}
 
 @media only screen and (max-width: 400px) {
@@ -57,7 +57,7 @@ body {
 }
 
 #showcase {
-  padding: 1rem 3rem 2.5rem 3rem;
+  padding: 1rem 5rem 2.5rem 5rem;
 }
 
 @media only screen and (max-width: 400px) {
@@ -69,7 +69,7 @@ body {
 #join {
   background-color: #66319b; 
   color: white;
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 5rem;
 }
 
 @media only screen and (max-width: 400px) {
@@ -85,8 +85,8 @@ body {
   color: white;
   padding: 1rem;
   text-align: center;
-  margin-top: 2rem;
-  border-radius: 3px;
+  margin-top: 3rem;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -98,7 +98,7 @@ body {
 #about {
   background-color: #865ead;
   color: white;
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 5rem;
 }
 
 @media only screen and (max-width: 400px) {
