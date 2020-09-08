@@ -96,7 +96,8 @@ body {
 }
 
 #about {
-  background-color: #865ead;
+  /* background-color: #865ead; */
+  background-color: red;
   color: white;
   padding: 2.5rem 5rem;
 }
